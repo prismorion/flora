@@ -27,13 +27,13 @@ body {
     align-items: center;
 }
 
-.lableName {
+.project {
 	color: #727272;
 	margin-top: 49px;
 	font-size: 15px; 
 }
 
-.lableName b {
+.project b {
 	color: #000;
 	font-size: 32px; 
 }

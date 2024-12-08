@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Инциденты | FLORA</title>
+    <link rel="stylesheet" href="static/css/style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <!-- <link rel="icon" href="static/image/icon.ico" type="image/ico"> -->  
+    <!-- <script src="static/js/scriptIndex.js"></script> -->
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navigation">
+            <span class="project">
+                <b>FLORA</b><br>
+                Мониторинг УДС
+            </span>
+            <ul>
+                <li><a class="incidents-page" href="#">Инциденты</a></li>
+                <li><a class="incident-archive-page" href="#">Архив инцидентов</a></li>
+            </ul>
+        </div>
+        <div class="user">
+            <span class="location"><img src="static/images/marker.svg" alt="!">Краснодар</span>
+            <input type="button" class="button-row" value="Выйти" onclick="">
+            <img class="avatar" src="static/images/gamer.png" alt="User Avatar">
+        </div>
+    </nav>
+
+    <div class="titleName">
+        <b>ИНЦИДЕНТЫ</b>
+    </div>
+
+    <div class="main">
+        <div class="map">
+            <iframe src="https://yandex.ru/map-widget/v1/?ll=38.987617%2C45.059731&mode=routes&rtext=~45.059759%2C38.986097&rtt=auto&ruri=~&z=14.3" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+        </div>
+
+        <div class="incidents">
+            <nav class="navbar-inc">
+                <input type="button" class="button-row-inc" value="Все" onclick="">
+                <input type="button" class="button-row-inc" value="ДТП" onclick="">
+                <input type="button" class="button-row-inc" value="Экстренные" onclick="">
+                <input type="button" class="button-row-inc" value="Прочее" onclick="">
+            </nav>
+        </div>
+    </div>
+</body>
+</html>
